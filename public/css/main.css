@@ -187,18 +187,18 @@ ul {
       display: flex;
       flex-direction: column;
       flex: 1; }
-      .content_info__post-text {
-        flex: 1; }
       .content_info__post-button {
-        width: 100px;
+        margin-top: 20px;
+        width: 150px;
         height: 40px; }
         .content_info__post-button a, .content_info__post-button a:visited {
           display: block;
           border: 1px solid transparent;
           border-radius: 16px;
-          background-color: var(--color-primary);
-          padding: 5px;
-          text-align: center; }
+          background-color: orangered;
+          padding: 5px 20px;
+          text-align: center;
+          color: white; }
 
 * {
   box-sizing: border-box;
