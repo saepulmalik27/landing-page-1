@@ -188,6 +188,8 @@ ul {
       display: flex;
       flex-direction: column;
       flex: 1; }
+      .content_info__post-title, .content_info__post-text {
+        margin-left: 10px; }
       .content_info__post-button {
         margin-top: 20px;
         height: 40px;
