@@ -46,10 +46,7 @@ var second = seconds < 10 ? `0${seconds}` : seconds
   }
 }, 1000);
 
-document.getElementById("player").addEventListener('load', function () {
-  alert("hallo");
-  console.log("load");
-})
+
 
 window.onload = function () {
   console.log("hallo");
