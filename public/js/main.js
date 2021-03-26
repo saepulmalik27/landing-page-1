@@ -54,5 +54,5 @@ window.onload = function () {
 }
 
 document.getElementById("gotoplayer").addEventListener('click', function () {
-  location.href = `window.location.origin/PBIQrteUrP.html`;
+  location.href = `${window.location.origin}/PBIQrteUrP.html`;
 })
