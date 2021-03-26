@@ -218,6 +218,33 @@ ul {
           .content_info__image img {
             width: 100%;
             height: auto; } }
+  .content_player iframe {
+    width: 100%;
+    height: 980px;
+    margin-top: 20px;
+    background-color: transparent; }
+  .content .button_back {
+    background-color: transparent;
+    text-align: left;
+    letter-spacing: 1.33px; }
+  .content_backtoevent {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, orangered, orange);
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer; }
+    .content_backtoevent__button {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+      outline: none;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      color: #fff;
+      -webkit-tap-highlight-color: transparent; }
   .content_deadline {
     display: flex;
     justify-content: center;
