@@ -45,3 +45,13 @@ var second = seconds < 10 ? `0${seconds}` : seconds
     document.getElementById("counter").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+document.getElementById("player").addEventListener('load', function () {
+  alert("hallo");
+  console.log("load");
+})
+
+window.onload = function () {
+  console.log("hallo");
+  console.log(window.location);
+}
