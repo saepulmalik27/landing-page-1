@@ -52,3 +52,7 @@ window.onload = function () {
   console.log("hallo");
   console.log(window.location);
 }
+
+document.getElementById("gotoplayer").addEventListener('click', function () {
+  location.href = `window.location.origin/PBIQrteUrP.html`;
+})
