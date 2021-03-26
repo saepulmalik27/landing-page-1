@@ -175,7 +175,7 @@ ul {
     background-color: #fff;
     border: 1px solid #e2e2e2;
     border-radius: 8px;
-    margin-bottom: 40px; }
+    margin-bottom: 15px; }
     .content_info__image {
       width: 200px;
       height: 200px; }
@@ -218,6 +218,53 @@ ul {
           .content_info__image img {
             width: 100%;
             height: auto; } }
+  .content_deadline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 35px;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    margin-bottom: 40px; }
+    .content_deadline__title {
+      text-transform: uppercase;
+      background-image: linear-gradient(to right, orangered, orange);
+      color: white;
+      height: 150px;
+      padding: 10px;
+      align-self: center;
+      margin: 10px 20px 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    @media screen and (max-width: 760px) {
+      .content_deadline {
+        flex-direction: column; }
+        .content_deadline__title {
+          width: 100%;
+          height: auto;
+          text-align: center; } }
+
+.counter_times {
+  width: 70%;
+  display: flex;
+  justify-content: space-between; }
+  .counter_times__card {
+    width: 200px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--color--black-1); }
+    .counter_times__card p {
+      color: var(--color--grey-1); }
+    @media screen and (max-width: 650px) {
+      .counter_times__card {
+        font-size: 40px; } }
+    @media screen and (max-width: 400px) {
+      .counter_times__card {
+        font-size: 20px; } }
 
 * {
   box-sizing: border-box;
