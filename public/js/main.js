@@ -48,11 +48,6 @@ var second = seconds < 10 ? `0${seconds}` : seconds
 
 
 
-window.onload = function () {
-  console.log("hallo");
-  console.log(window.location);
-}
-
 document.getElementById("gotoplayer").addEventListener('click', function () {
   location.href = `${window.location.origin}/PBIQrteUrP`;
 })
